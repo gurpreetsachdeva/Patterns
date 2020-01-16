@@ -25,4 +25,9 @@ Embed Versus Reference : Embed when you dont want to use the nested structure wi
  Automatic Failover are nice to have.
  CAP Theorem : Can have two max but that is a blurry line in today's world.
  ```
- 
+ ```Scalability:
+ 1. Load Balancing
+ 2. Scaling read/writes at database layer through Sharding
+ 3. Caching using Memcache or Redis
+ 4. Async Processing using Message Queues. Example : Technologies like Apache Kafka, Rabbit MQ/Active MQ,Redis.
+ ```
